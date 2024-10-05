@@ -14,6 +14,9 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
 }
 
 a {
@@ -22,4 +25,15 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+  margin: 5px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 0 auto; */
+  padding: 20px;
+  border: 10px solid aliceblue;
+
 }
