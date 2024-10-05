@@ -1,0 +1,109 @@
+<html></html>
+<head>
+    <title>My Awesome Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: #8e24aa;
+            color: white;
+            padding: 20px;
+            
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+        }
+        .sidebar {
+            background-color: #1e88e5;
+            color: white;
+            padding: 20px;
+            width: 200px;
+            height: calc(100vh - 0px);
+        }
+        .sidebar a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            margin: 10px 0;
+            font-size: 18px;
+            width: 200px;
+        }
+        .sidebar a i {
+            margin-right: 10px;
+        }
+        .content {
+            flex-grow: 1;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .card {
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            width: calc(33.33% - 25px);
+        }
+        .footer {
+            background-color: #e0e0e0;
+            color: #8e24aa;
+            text-align: center;
+            padding: 10px;
+            font-size: 16px;
+        }
+        .footer i {
+            color: red;
+        }
+        ul {
+    padding: 0px;
+}
+        li{
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        MY AWESOME WEBSITE
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <li><a href="#">⭐ - link one</a></li>
+                <li><a href="#">🦸🏽‍♂️ - link two</a></li>
+                <li><a href="#">🖌️ - link three</a></li>
+                <li><a href="#">👌🏽 - link four</a></li>
+              </ul>
+        </div>
+        <div class="content">
+            <div class="card">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, eveniet? Dolorem dignissimos maiores non delectus possimus dolor nulla repudiandae vitae provident quae, obcaecati ipsam unde impedit corrupti veritatis minima porro?
+            </div>
+            <div class="card">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi quaerat qui iure ipsam maiores velit tempora, deleniti nesciunt fuga suscipit alias vero rem, corporis officia totam saepe excepturi odit ea.
+            </div>
+            <div class="card">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis illo ex quas, commodi eligendi aliquam ut, dolor, atque aliquid iure nulla. Laudantium optio accusantium quaerat fugiat, natus officia esse autem?
+            </div>
+            <div class="card">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nihil impedit eius amet adipisci dolorum vel nostrum sit excepturi corporis tenetur cum, dolore incidunt blanditiis. Unde earum minima laboriosam eos!
+            </div>
+            <div class="card">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis illo ex quas, commodi eligendi aliquam ut, dolor, atque aliquid iure nulla. Laudantium optio accusantium quaerat fugiat, natus officia esse autem?
+            </div>
+            <div class="card">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nihil impedit eius amet adipisci dolorum vel nostrum sit excepturi corporis tenetur cum, dolore incidunt blanditiis. Unde earum minima laboriosam eos!
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        The Odin Project <i class="fas fa-heart"></i>
+    </div>
+</body>
+</html>
